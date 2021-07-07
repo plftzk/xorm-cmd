@@ -3,7 +3,7 @@
 基于https://github.com/go-xorm/cmd
 
 源码安装
-go get github.com/plftzk/xorm-cmd
+go get github.com/plftzk/xorm-cmd/xorm
 
 虽然原工具可自动将bigint转成int64，但习惯将时间戳字段为int类型。
 
