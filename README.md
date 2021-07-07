@@ -13,3 +13,8 @@ genJson=1
 int64Cols=updated_at,created_at
 ```
 该配置在逆向时，可将"updated_at"，"created_at"指定为int64。
+
+reverse
+```
+xorm-cmd reverse mysql USER:PWD@tcp(XXX:3306)/DB?charset=utf8 tpl res TABLE
+```
